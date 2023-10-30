@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" name="A:/Testing/APIAutomation_RestAssured/src/test/java/org/RestAssured/OCT15">
+        <classes>
+            <class name="org.RestAssured.OCT15.TestNgExamples.TestNg003">
+            </class>
+        </classes>
+        <groups>
+            <run>
+                <exclude name="smoke">smoke</exclude>
+                <include name="PreProd">PreProd</include>
+                <include name="login">login</include>
+            </run>
+        </groups>
+    </test>
+</suite>
