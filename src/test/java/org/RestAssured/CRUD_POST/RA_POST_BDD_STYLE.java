@@ -2,7 +2,8 @@ package org.RestAssured.CRUD_POST;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
-import org.junit.Test;
+import org.testng.annotations.Test;
+
 
 public class RA_POST_BDD_STYLE {
 
@@ -27,11 +28,11 @@ public class RA_POST_BDD_STYLE {
 
         RestAssured.given()
 
-                .baseUri("https://restful-booker.herokuapp.com/").basePath("/auth")
+                .baseUri("https://restful-booker.herokuapp.com").basePath("/auth")
 
                 .contentType(ContentType.JSON).
 
-                when().body("payload").post()
+                when().body(payload).post()
 
                 .then().log().all().statusCode(200);
 

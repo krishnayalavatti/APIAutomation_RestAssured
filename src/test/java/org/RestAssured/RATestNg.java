@@ -1,7 +1,8 @@
 package org.RestAssured;
 
 import io.restassured.RestAssured;
-import org.junit.Test;
+import org.testng.annotations.*;
+
 
 public class RATestNg
 {
