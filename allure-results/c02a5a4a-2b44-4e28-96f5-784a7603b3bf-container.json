@@ -1,0 +1,1 @@
+{"uuid":"c02a5a4a-2b44-4e28-96f5-784a7603b3bf","name":"APIAutomation_RestAssured","children":["c737da58-88c1-4760-8e09-7d509bda0390"],"befores":[{"name":"Setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1703214510471,"stop":1703214511437}],"afters":[],"start":1703214510442,"stop":1703214517071}
